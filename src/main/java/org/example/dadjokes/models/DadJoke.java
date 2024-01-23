@@ -1,3 +1,5 @@
+package org.example.dadjokes.models;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,5 +16,5 @@ public class DadJoke {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String jokeText
+    private String jokeText;
 }
